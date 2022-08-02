@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.items{
+	width: 100%;
+	height: 100vh;
+	background-color: #440A61;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.itemsBlock{
+	width: 70%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.itemHeader{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+}
+.itemFooter{
+	width: 100%;
+	height: 20%;
+	background: #FFA710;
+	margin-top:3%;
+}
+.itemHeadLeft{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.itemHeadRight{
+	width: 48%;
+	height: 100%;
+	margin-left: 4%;
+	display: flex;
+	flex-direction: column;
+}
+
+.itemHeadLeftTop{
+	width: 100%;
+	height: 25%;
+	background-color: #BC53D4;
+}
+.itemHeadLeftBottom{
+	width: 100%;
+	height: 70%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
+}
+.itemSmallLeft{
+	width: 47%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.ItemOne{
+	width: 100%;
+	height: 68%;
+	background-color: #FFA710;
+}
+.ItemTwo{
+	width: 100%;
+	height: 28%;
+	margin-top: 4%;
+	background-color: #F43F4E;
+}
+.itemBigLeft{
+	width: 47%;
+	height: 100%;
+	margin-left: 6%;
+	background-color: #00BDD0;
+}
+.itemHeadRightTop{
+	width: 100%;
+	height: 63%;
+	display: flex;
+	flex-direction: row;
+}
+.itemHeadRightBottom{
+	width: 100%;
+	height: 33%;
+	margin-top: 4%;
+	background-color: #BC53D4;
+}
+
+.itemHeadRightTopLeft, .itemHeadRightTopRight{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.itemHeadRightTopRight{
+	margin-left: 4%;
+}
+.itemHeadRightTopLeft div:nth-child(1){
+	width: 100%;
+	height: 32%;
+	background-color: #F43F4E;
+}
+.itemHeadRightTopLeft div:nth-child(2){
+	width: 100%;
+	height: 20%;
+	background-color: #00BDD0;
+	margin-top:5%;
+}
+
+.itemHeadRightTopLeft div:nth-child(3){
+	width: 100%;
+	height: 38%;
+	margin-top: 5%;
+	background-color: #FFA710;
+}
+
+.itemHeadRightTopRight div:nth-child(1){
+	width: 100%;
+	height: 44%;
+	background-color: #00BDD0;
+}
+
+.itemHeadRightTopRight div:nth-child(2){
+	width: 100%;
+	height: 25%;
+	margin-top: 5%;
+	background-color: #FFA710;
+}
+
+.itemHeadRightTopRight div:nth-child(3){
+	width: 100%;
+	height: 21%;
+	margin-top: 5%;
+	background-color: #F43F4E;
+}
